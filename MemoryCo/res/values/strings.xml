@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mario Says</string>
+	<string name="action_settings">Ayuda</string>
+    <string name="menu_play">Jugar</string>
+    <string name="menu_options">Ayuda</string>
+    <string name="menu_exit">Salir</string>
+    <string name="about_text">Aplicacion creada por Alberto Salieto para la asignatura DISM.\n ¿Derechos de autor? ¿Eso qué es?\n \n Versión del clásico "Simón Dice". ¿Cuántos sonidos podrás llegar a recordar? \n\n @AlbertoSalieto</string>
+    <string name="ayuda_title">Ayuda de MarioSays</string>
+    
+</resources>

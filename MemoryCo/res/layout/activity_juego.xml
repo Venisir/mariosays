@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/fondo"
+    android:scaleType = "centerCrop">
+    
+    <TextView 
+        android:layout_height="wrap_content" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_width="wrap_content" 
+        android:background="@drawable/button_bg" 
+        android:layout_gravity="center" 
+        android:gravity="center_vertical|center_horizontal" 
+        android:layout_marginBottom="30dip" 
+        android:id="@+id/tvTimer"
+        android:textColor="#FFFFFF">
+    </TextView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <Button
+                android:id="@+id/buttonMoneda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/boton_moneda"
+                android:onClick="presionMoneda" />
+
+            <Button
+                android:id="@+id/buttonSeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/boton_seta"
+                android:onClick="presionCrecer" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <Button
+                android:id="@+id/buttonSalto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/boton_salto"
+                android:onClick="presionSalto" />
+
+            <Button
+                android:id="@+id/buttonVida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/boton_vida"
+                android:onClick="presionVida" />
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/buttonRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+	        android:background="@drawable/button_bg" 
+	        android:onClick="reintentar"
+        	android:textColor="#FFFFFF"/>
+
+    </TableLayout>
+    
+    
+</LinearLayout>
